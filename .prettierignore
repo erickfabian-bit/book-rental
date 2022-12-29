@@ -1,0 +1,12 @@
+.DS_Store
+*.local
+package-lock.json
+package.json
+*.d.ts
+tsconfig.json
+tsconfig.node.json
+vite.config.ts
+.DS_Store
+*.local
+
+

@@ -1,0 +1,6 @@
+public
+dist
+*.d.ts
+vite.config.ts
+.DS_Store
+*.local
