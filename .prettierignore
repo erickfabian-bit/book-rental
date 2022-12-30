@@ -8,5 +8,5 @@ tsconfig.node.json
 vite.config.ts
 .DS_Store
 *.local
-
+.vscode/*
 

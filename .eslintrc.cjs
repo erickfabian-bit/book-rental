@@ -3,11 +3,11 @@ module.exports = {
 		browser: true,
 		es2021: true,
 	},
-  "settings": {
-    "react": {
-      "version" : "detect"
-    }
-  },
+	settings: {
+		react: {
+			version: 'detect',
+		},
+	},
 	extends: [
 		'plugin:react/recommended',
 		'plugin:react/jsx-runtime',
@@ -16,9 +16,9 @@ module.exports = {
 	],
 	overrides: [],
 	parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
+		ecmaFeatures: {
+			jsx: true,
+		},
 		ecmaVersion: 'latest',
 		sourceType: 'module',
 		project: './tsconfig.json',
