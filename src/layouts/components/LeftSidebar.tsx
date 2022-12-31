@@ -47,6 +47,9 @@ const LeftSidebar = (): JSX.Element => {
 								<li>
 									<Link to="/editorial">Editoriales</Link>
 								</li>
+								<li>
+									<Link to="/map">Mapa</Link>
+								</li>
 							</ul>
 						</li>
 						<li className="nav-small-cap">--- GENERAL</li>

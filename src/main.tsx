@@ -1,4 +1,3 @@
-import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import '@popperjs/core';
 import 'bootstrap';
@@ -18,7 +17,7 @@ import { RouterProvider } from 'react-router-dom';
 library.add(fas, far);
 
 createRoot(document.getElementById('root') as HTMLElement).render(
-	<StrictMode>
-		<RouterProvider router={router} />
-	</StrictMode>,
+	// <StrictMode>
+	<RouterProvider router={router} />,
+	// </StrictMode>,
 );

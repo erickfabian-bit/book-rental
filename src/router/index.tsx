@@ -7,6 +7,7 @@ const Login = lazy(async () => await import('../views/auth/login'));
 const SendResetLink = lazy(async () => await import('../views/auth/send-reset-link'));
 const Home = lazy(async () => await import('../views/home'));
 const Editorial = lazy(async () => await import('../views/editorial'));
+const Map = lazy(async () => await import('../views/map'));
 
 const LoadingPage = (): JSX.Element => {
 	return <>Loading...</>;
@@ -31,6 +32,14 @@ const routes: RouteObject[] = [
 				element: (
 					<Suspense fallback={<LoadingPage />}>
 						<Editorial />
+					</Suspense>
+				),
+			},
+			{
+				path: '/map',
+				element: (
+					<Suspense fallback={<LoadingPage />}>
+						<Map />
 					</Suspense>
 				),
 			},
